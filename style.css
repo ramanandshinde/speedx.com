@@ -718,4 +718,193 @@ gap: 20px;
     color: var(--black);
 }
 
+.service-type1{
+    height: 110px;
+    width: 25%;
+    background-color:#ffffff;
+    border-radius: 12px 12px 12px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+
+.service-type1 img{
+    height: 50%;
+    width: 40%;
+    /* aspect-ratio: 3/2; */
+    object-fit: contain;
+    margin-left: 15px;
+    transition: transform 0.3s ease;
+}
+
+.service-type1 img:hover{
+    transform: scale(1.05);
+}
+.service-type label{
+    padding-left: 10vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1024px){
+
+.search-bar{
+width:300px;
+}
+
+.service-type1{
+    display: none;
+}
+
+.location{
+width:250px;
+}
+
+.services-video-container{
+flex-direction:column;
+height:auto;
+}
+
+.services-div{
+width:100%;
+}
+
+.video-div{
+width:100%;
+justify-content:center;
+}
+
+.maincontener,
+.maincontener2{
+width:45%;
+}
+
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media(max-width:768px){
+
+.nav-bar{
+flex-wrap:wrap;
+height:auto;
+gap:10px;
+padding:10px;
+}
+
+.logo-div{
+width:auto;
+}
+
+.search-bar,
+.location{
+width:100%;
+}
+
+.cart-login{
+width:auto;
+}
+
+/* services section */
+
+.services-video-container{
+flex-direction:column;
+}
+
+.services-div{
+width:100%;
+justify-content:center;
+}
+
+.service-type{
+width:45%;
+}
+
+/* image grid */
+
+.video-div{
+flex-direction:column;
+align-items:center;
+}
+
+.maincontener,
+.maincontener2{
+width:100%;
+}
+
+/* promo boxes */
+
+.secondbox{
+flex-direction:column;
+height:auto;
+}
+
+.box1,
+.box2{
+width:100%;
+margin:15px 0;
+}
+
+.s2 img{
+width:100%;
+height:auto;
+}
+
+/* footer */
+
+.footer-section{
+flex-direction:column;
+height:auto;
+}
+
+.footer-section1{
+width:100%;
+padding:20px;
+}
+
+}
+
+
+/* ---------- SMALL MOBILE ---------- */
+
+@media(max-width:480px){
+
+.service-type{
+width:90%;
+}
+
+.search-bar{
+    display: none;
+}
+
+.cart-login{
+    display: none;
+}
+
+.video-div {
+    display: none;
+}
+
+.services-div label{
+    display: none;
+}
+
+}
+
 
