@@ -43,6 +43,7 @@ html,body{
 .logo-div img{
      height: 30px;
     width: 150px;
+    display: none;
 }
 
 .search-bar{
